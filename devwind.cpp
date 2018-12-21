@@ -379,7 +379,7 @@ NODE *lportwritearray(NODE *args)
             int count = min3(getint(val), getarrdim(obj), sizeof(txbuffer));
 
             // fill buffer with elements of the array
-            for (size_t i = 0; i < count; i++)
+            for (int i = 0; i < count; i++)
             {
                 NODE * item = getarrptr(obj)[i];
                 NODE * intItem = cnv_node_to_intnode(item);

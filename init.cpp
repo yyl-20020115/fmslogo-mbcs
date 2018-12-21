@@ -228,7 +228,6 @@ static const PRIMTYPE prims[] =
     { "downpitch", 1, 1, 1, PREFIX_PRIORITY, ldownpitch, LOCALIZED_ALTERNATE_DOWNPITCH },
     { "dribble", 1, 1, 1, PREFIX_PRIORITY, ldribble, LOCALIZED_ALTERNATE_DRIBBLE },
 	{ "ed", 1, 1, 1, PREFIX_PRIORITY, ledit, LOCALIZED_ALTERNATE_ED },
-	{ "edall", 0, 0, 0, PREFIX_PRIORITY, ledit, LOCALIZED_ALTERNATE_EDALL },
 	{ "edit", 1, 1, 1, PREFIX_PRIORITY, ledit, LOCALIZED_ALTERNATE_EDIT },
     { "ellipsearc", 4, 4, 4, PREFIX_PRIORITY, lellipsearc, LOCALIZED_ALTERNATE_ELLIPSEARC },
     { "emptyp", 1, 1, 1, PREFIX_PRIORITY, lemptyp, LOCALIZED_ALTERNATE_EMPTYP },

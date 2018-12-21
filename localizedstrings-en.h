@@ -249,7 +249,6 @@
 #define LOCALIZED_ALTERNATE_DOWNPITCH              "downpitch"
 #define LOCALIZED_ALTERNATE_DRIBBLE                "dribble"
 #define LOCALIZED_ALTERNATE_ED                     "ed"
-#define LOCALIZED_ALTERNATE_EDALL                  "edall"
 #define LOCALIZED_ALTERNATE_EDIT                   "edit"
 #define LOCALIZED_ALTERNATE_ELLIPSEARC             "ellipsearc"
 #define LOCALIZED_ALTERNATE_EMPTYP                 "emptyp"
