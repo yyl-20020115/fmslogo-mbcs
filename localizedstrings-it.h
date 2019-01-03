@@ -693,14 +693,14 @@
 
 // The dialog box for selecting a Startup procedure
 #define LOCALIZED_SELECTSTARTUP_CAPTION               "Selezionare un'istruzione " LOCALIZED_ALTERNATE_STARTUP
-#define LOCALIZED_SELECTSTARTUP_EXPLAINTEXT_UNDEFINED "L'area di lavoro non ha una lista di istruzioni " LOCALIZED_ALTERNATE_STARTUP " definita,\nquindi non succeder‡ nulla quando viene caricato il salvaschermo.\nSi prega di selezionare una procedura da eseguire quando viene caricato il programma."
-#define LOCALIZED_SELECTSTARTUP_EXPLAINTEXT_NOTLIST   "La variabile " LOCALIZED_ALTERNATE_STARTUP " non Ë un elenco,\nquindi non succeder‡ nulla quando viene caricato il salvaschermo.\nSi prega di selezionare una procedura da eseguire quando viene caricato il programma."
+#define LOCALIZED_SELECTSTARTUP_EXPLAINTEXT_UNDEFINED "L'area di lavoro non ha una lista di istruzioni " LOCALIZED_ALTERNATE_STARTUP " definita,\nquindi non succeder?nulla quando viene caricato il salvaschermo.\nSi prega di selezionare una procedura da eseguire quando viene caricato il programma."
+#define LOCALIZED_SELECTSTARTUP_EXPLAINTEXT_NOTLIST   "La variabile " LOCALIZED_ALTERNATE_STARTUP " non ?un elenco,\nquindi non succeder?nulla quando viene caricato il salvaschermo.\nSi prega di selezionare una procedura da eseguire quando viene caricato il programma."
 #define LOCALIZED_SELECTSTARTUP_EXPLAINTEXT_EMPTY     "Area di lavoro ha definita in lista istruzioni una vuoto " LOCALIZED_ALTERNATE_STARTUP ", quindi non succederÅ‡ nulla quando viene caricato il salvaschermo.\nSi prega di selezionare una procedura da eseguire quando viene caricato il programma."
-#define LOCALIZED_SELECTSTARTUP_NOPROCEDURESDEFINED   "Nessuna procedura Ë definita"
+#define LOCALIZED_SELECTSTARTUP_NOPROCEDURESDEFINED   "Nessuna procedura ?definita"
 
 // The warning dialog box when the user saves an empty workspace
 #define LOCALIZED_EMPTYWORKSPACE_TITLE                LOCALIZED_GENERAL_PRODUCTNAME
-#define LOCALIZED_EMPTYWORKSPACE_MESSAGE              "Non esistono procedure, variabili o elenchi di propriet‡ definiti,\nquindi l'area di lavoro verr‡ salvato come un file vuoto.\n\nVuoi salvare l'area di lavoro comunque?"
+#define LOCALIZED_EMPTYWORKSPACE_MESSAGE              "Non esistono procedure, variabili o elenchi di propriet?definiti,\nquindi l'area di lavoro verr?salvato come un file vuoto.\n\nVuoi salvare l'area di lavoro comunque?"
 
 //
 // Menu options in the popup menu
@@ -760,7 +760,7 @@
 #define LOCALIZED_UNSAVEDCHANGES_SAVEANDEXIT    "&Salva e Esci"
 #define LOCALIZED_UNSAVEDCHANGES_DONTSAVE       "&Non Salvare"
 #define LOCALIZED_UNSAVEDCHANGES_CANCEL         LOCALIZED_GENERAL_CANCELBUTTON
-#define LOCALIZED_UNSAVEDCHANGES_MESSAGE1       "Il contenuto Ë stato modificato.  Se esci senza salvare, queste modifiche andranno perse.  "
+#define LOCALIZED_UNSAVEDCHANGES_MESSAGE1       "Il contenuto ?stato modificato.  Se esci senza salvare, queste modifiche andranno perse.  "
 #define LOCALIZED_UNSAVEDCHANGES_MESSAGE2       "Vorresti salvare le modifiche prima di uscire?"
 
 
@@ -795,7 +795,7 @@
 #define LOCALIZED_STATUS_TURTLE                 "Tartaruga"
 #define LOCALIZED_STATUS_POSITION               "Posizione(XYZ):"
 #define LOCALIZED_STATUS_WHICH                  "Numero:"
-#define LOCALIZED_STATUS_VISIBILITY             "Visibilit‡:"
+#define LOCALIZED_STATUS_VISIBILITY             "Visibilit?"
 #define LOCALIZED_STATUS_COLOR                  "Colore"
 #define LOCALIZED_STATUS_PENCOLOR               "Penna(RGB):"
 #define LOCALIZED_STATUS_FLOODCOLOR             "Riempimento(RGB):"
@@ -808,7 +808,7 @@
 #define LOCALIZED_STATUS_PENNORMAL      "Normale"
 #define LOCALIZED_STATUS_PENERASE       "Cancella"
 #define LOCALIZED_STATUS_PENUP          "Su"
-#define LOCALIZED_STATUS_PENDOWN        "Gi˘"
+#define LOCALIZED_STATUS_PENDOWN        "Gi?
 #define LOCALIZED_STATUS_PENSHOWN       "Visibile"
 #define LOCALIZED_STATUS_PENHIDDEN      "Nascosta"
 #define LOCALIZED_STATUS_POLYGONS       "Poligoni"
@@ -860,7 +860,7 @@
 #define LOCALIZED_ABOUTFMS_INSTALLER           "Installatore basato su Nullsoft Scriptable Install System\nhttp://nsis.sourceforge.net/"
 #define LOCALIZED_ABOUTFMS_ADVENTURE           "The Great Logo Adventure (ISBN 0-9651934-6-2)\nScritto e donato da Jim Muller\nDisponibile a http://www.softronix.com/"
 #define LOCALIZED_ABOUTFMS_SPECIALTHANKS       "Ringrazimenti a Yehuda Katz e Erich Neuwirth"
-#define LOCALIZED_ABOUTFMS_GPL                 LOCALIZED_GENERAL_PRODUCTNAME " Ë free software\nVedere la Licenza Pubblica GNU"
+#define LOCALIZED_ABOUTFMS_GPL                 LOCALIZED_GENERAL_PRODUCTNAME " ?free software\nVedere la Licenza Pubblica GNU"
 #define LOCALIZED_ABOUTFMS_NEWSGROUP           "Internet News Group: comp.lang.logo\nVisita il Forum Logo a\nhttp://groups.yahoo.com/group/LogoForum/"
 #define LOCALIZED_ABOUTFMS_MULTIMEDIALOGIC     "Traduzione italiana di Stefano Federici, aggiunte e correzioni di Francesco Simone Carta"
 #define LOCALIZED_ABOUTFMS_OK                  LOCALIZED_GENERAL_OKBUTTON
@@ -893,38 +893,38 @@
 // 
 
 #define LOCALIZED_CHANGESINEDITORMAYBELOST  "Le modifiche effettuate in questa sessione possono essere perse.\n\nSei sicuro di voler uscire da " LOCALIZED_GENERAL_PRODUCTNAME "?"
-#define LOCALIZED_EDITSESSIONISRUNNING      "L'Editor Ë gi˘ in esecuzione"
+#define LOCALIZED_EDITSESSIONISRUNNING      "L'Editor ?gi?in esecuzione"
 
 #define LOCALIZED_COULDNOTWRITEBMP            "Impossibile scrivere il file .bmp"
 #define LOCALIZED_COULDNOTOPENBMP             "Impossibile aprire il file .bmp"
 #define LOCALIZED_COULDNOTCREATEBMP           "Impossibile creare una bitmap Windows 3.0"
-#define LOCALIZED_NOTVALIDBMP                 "Il file non Ë una bitmap Windows 3.0"
+#define LOCALIZED_NOTVALIDBMP                 "Il file non ?una bitmap Windows 3.0"
 
 #define LOCALIZED_YOUHAVEUNSAVEDCHANGES         "Le modifiche non sono state salvate sul disco"
-#define LOCALIZED_FILENEWWILLERASEWORKSPACE     "L'esecuzione di questo comando canceller‡ tutte le procedure definite.\n\nConfermi l'esecuzione del comando Nuovo?"
-#define LOCALIZED_FILELOADMAYOVERWRITEWORKSPACE "Le definizioni delle procedure definire nel file di cui si Ë richiesto il caricamento verranno mescolate alle definizioni gi‡ presenti nello Spazio di Lavoro\ne potrebbero sovrascrivere eventuali modifiche non ancora salvate.\n\nConfermi l'esecuzione del comando Carica?"
-#define LOCALIZED_FILEOPENWILLERASEWORKSPACE    "Questa operazioni causer‡ la perdita di tutte le modifiche non salvate.\n\nConfermi l'esecuzione del comando Apri?"
+#define LOCALIZED_FILENEWWILLERASEWORKSPACE     "L'esecuzione di questo comando canceller?tutte le procedure definite.\n\nConfermi l'esecuzione del comando Nuovo?"
+#define LOCALIZED_FILELOADMAYOVERWRITEWORKSPACE "Le definizioni delle procedure definire nel file di cui si ?richiesto il caricamento verranno mescolate alle definizioni gi?presenti nello Spazio di Lavoro\ne potrebbero sovrascrivere eventuali modifiche non ancora salvate.\n\nConfermi l'esecuzione del comando Carica?"
+#define LOCALIZED_FILEOPENWILLERASEWORKSPACE    "Questa operazioni causer?la perdita di tutte le modifiche non salvate.\n\nConfermi l'esecuzione del comando Apri?"
 
-#define LOCALIZED_EDITORISOPEN                  "Sapevi di avere un'altra sessione di Editor gi‡ in esecuzione?\n\nQualunque modifica in questa sessione di Editor non verr‡ salvata."
+#define LOCALIZED_EDITORISOPEN                  "Sapevi di avere un'altra sessione di Editor gi?in esecuzione?\n\nQualunque modifica in questa sessione di Editor non verr?salvata."
 
 #define LOCALIZED_ERROR_CANTREADFILE            "Impossibile leggere il file \"%s\" dal disco"
 #define LOCALIZED_ERROR_CANTWRITEFILE           "Impossibile scrivere il file \"%s\" sul disco"
 
 #define LOCALIZED_SAVETOWORKSPACE                "Salva nello Spazio di Lavoro"
-#define LOCALIZED_CONTENTSCHANGED                "Il contenuto Ë stato modificato"
-#define LOCALIZED_SAVECHANGEDCONTENTSTOWORKSPACE "Il contenuto Ë stato modificato.\nVuoi salvare le modifiche nello Spazio di Lavoro?"
+#define LOCALIZED_CONTENTSCHANGED                "Il contenuto ?stato modificato"
+#define LOCALIZED_SAVECHANGEDCONTENTSTOWORKSPACE "Il contenuto ?stato modificato.\nVuoi salvare le modifiche nello Spazio di Lavoro?"
 
 
 
-#define LOCALIZED_CURSORISATLASTGOODDEFINITION  "Il salvataggio del contenuto dell'Editor nello Spazio di Lavoro non Ë riuscito.  Il cursose verr‡ posto subito dopo l'ultima definizione salvata con successo.\n\nControlla l'area Comandi per eventuali messaggi d'errore."
+#define LOCALIZED_CURSORISATLASTGOODDEFINITION  "Il salvataggio del contenuto dell'Editor nello Spazio di Lavoro non ?riuscito.  Il cursose verr?posto subito dopo l'ultima definizione salvata con successo.\n\nControlla l'area Comandi per eventuali messaggi d'errore."
 #define LOCALIZED_RETURNTOEDIT                  "Vuoi tornare all'Editor?"
 
 #define LOCALIZED_EDITFAILEDTOLOAD              LOCALIZED_SAVETOWORKSPACE
 
 #define LOCALIZED_ERRORINFILETITLE              "Errore nel file"
-#define LOCALIZED_ERRORINFILEMESSAGE            "C'Ë stato un problema durante il caricamento del file \"%s\".\n\nControlla l'elenco Comandi per possibili messaggi di errore.\n\nVuoi aprire l'Editor e vedere l'errore?"
+#define LOCALIZED_ERRORINFILEMESSAGE            "C'?stato un problema durante il caricamento del file \"%s\".\n\nControlla l'elenco Comandi per possibili messaggi di errore.\n\nVuoi aprire l'Editor e vedere l'errore?"
 
-#define LOCALIZED_CANNOTALLOCATESCREEN          "Impossibile allocare la memoria per la finestra. Potresti avere richiesto altezza e larghezza che eccedono la quantit‡ di memoria video disponibile.\n\n" LOCALIZED_GENERAL_PRODUCTNAME " impossibile continuare."
+#define LOCALIZED_CANNOTALLOCATESCREEN          "Impossibile allocare la memoria per la finestra. Potresti avere richiesto altezza e larghezza che eccedono la quantit?di memoria video disponibile.\n\n" LOCALIZED_GENERAL_PRODUCTNAME " impossibile continuare."
 
 
 // 
@@ -960,7 +960,7 @@
 //
 // Notification when defining a procedure with TO in the commander
 //
-#define LOCALIZED_PROCEDUREDEFINED  "%s Ë stata definita\n"
+#define LOCALIZED_PROCEDUREDEFINED  "%s ?stata definita\n"
 
 
 //
@@ -979,7 +979,7 @@
 #define LOCALIZED_ERROR_STACKOVERFLOW          "stack overflow"
 #define LOCALIZED_ERROR_TURTLEOUTOFBOUNDS      "la tartaruga ha superato i confini"
 #define LOCALIZED_ERROR_BADGRAPHINIT           "impossibile inizializzare il modulo grafico"
-#define LOCALIZED_ERROR_BADDATA                "%p non puÚ avere %s come argomento"
+#define LOCALIZED_ERROR_BADDATA                "%p non pu?avere %s come argomento"
 #define LOCALIZED_ERROR_DIDNTOUTPUT            "%p non ha prodotto un risultato che invece occorre a %p"
 #define LOCALIZED_ERROR_NOTENOUGHINPUTS        "argomenti insufficienti per %p"
 #define LOCALIZED_ERROR_TOOMUCH                "superato il numero massimo di oggetti permessi all'interno di ()"
@@ -991,23 +991,23 @@
 #define LOCALIZED_ERROR_UNEXPECTEDBRACE        "'}' inattesa"
 #define LOCALIZED_ERROR_DONTKNOWHOWTO          "Non so come fare %p"
 #define LOCALIZED_ERROR_NOCATCHTAG             "Impossibile trovare il tag %p"
-#define LOCALIZED_ERROR_ALREADYDEFINED         "%p Ë gi‡ definita"
+#define LOCALIZED_ERROR_ALREADYDEFINED         "%p ?gi?definita"
 #define LOCALIZED_ERROR_STOPPING               "Sto fermando..."
-#define LOCALIZED_ERROR_ALREADYDRIBBLING       "Sto gi‡ registrando"
+#define LOCALIZED_ERROR_ALREADYDRIBBLING       "Sto gi?registrando"
 #define LOCALIZED_ERROR_FILESYSTEM                   "Errore del File System: %p"
 #define LOCALIZED_ERROR_FILESYSTEM_CANTOPEN          "Impossibile aprire il file"
 #define LOCALIZED_ERROR_FILESYSTEM_CANTOPEN2         "Impossibile aprire il file: %t"
-#define LOCALIZED_ERROR_FILESYSTEM_ALREADYOPEN       "File gi‡ aperto"
+#define LOCALIZED_ERROR_FILESYSTEM_ALREADYOPEN       "File gi?aperto"
 #define LOCALIZED_ERROR_FILESYSTEM_NOTOPEN           "File non aperto"
 #define LOCALIZED_ERROR_FILESYSTEM_CANTCREATEEDITOR  "Impossibile creare il file dell'Editor"
 #define LOCALIZED_ERROR_FILESYSTEM_CANTSTARTEDITOR   "Impossibile eseguire l'Editor"
 #define LOCALIZED_ERROR_FILESYSTEM_CANTREADEDITOR    "Impossibile leggere il file dell'Editor"
 #define LOCALIZED_ERROR_IFWARNING              "Penso sia SEALTRIMENTI, non SE"
-#define LOCALIZED_ERROR_SHADOWWARNING          "La variabile globale %p Ë nascosta da una variabile locale nella procedura chiamata"
+#define LOCALIZED_ERROR_SHADOWWARNING          "La variabile globale %p ?nascosta da una variabile locale nella procedura chiamata"
 #define LOCALIZED_ERROR_USER                   "Lancia \"Errore"
-#define LOCALIZED_ERROR_ISPRIMITIVE            "%p Ë una primitiva"
-#define LOCALIZED_ERROR_TONOTINSIDE            "Non Ë possibile usare PER all'interno di una procedura"
-#define LOCALIZED_ERROR_ATTOPLEVEL             "%p puÚ essere usato solo all'interno di una procedura"
+#define LOCALIZED_ERROR_ISPRIMITIVE            "%p ?una primitiva"
+#define LOCALIZED_ERROR_TONOTINSIDE            "Non ?possibile usare PER all'interno di una procedura"
+#define LOCALIZED_ERROR_ATTOPLEVEL             "%p pu?essere usato solo all'interno di una procedura"
 #define LOCALIZED_ERROR_ATTOPLEVEL2            "E' necessario trovarsi all'interno di una procedura per usare RIPORTA o STOP"
 #define LOCALIZED_ERROR_NOTEST                 "%p senza VERIFICA"
 #define LOCALIZED_ERROR_BADMACROOUTPUT         "La Macro ha restituito %s invece di una lista"
@@ -1022,7 +1022,7 @@
 #define LOCALIZED_ERROR_MODE_ON_SPRITE             "impossibile impostare il modo per una tartaruga con bitmap rotante"
 #define LOCALIZED_ERROR_BITMAPSPECIALTUTRLE        "impossibile creare una tartaruga speciale con una bitmap rotante"
 #define LOCALIZED_ERROR_BITMAPCLIPBOARD            "non posso usare gli appunti come bitmap rotante"
-#define LOCALIZED_ERROR_SPECIALFORM                "a %p non piace %p come argomento perchÈ ha una forma speciale"
+#define LOCALIZED_ERROR_SPECIALFORM                "a %p non piace %p come argomento perch?ha una forma speciale"
 
 //
 // Error messages displayed in Message Boxes.
@@ -1036,16 +1036,16 @@
 #define LOCALIZED_ERROR_CANTFLUSHPORT        "Impossibile inviare i dati alla porta"
 #define LOCALIZED_ERROR_CANTDCBONPORT        "Impossibile costruire il blocco DCB sulla porta"
 #define LOCALIZED_ERROR_CANTSETPORT          "Impossibile configurare la porta"
-#define LOCALIZED_ERROR_PORTALREADYOPEN      "La porta Ë gi‡ aperta"
-#define LOCALIZED_ERROR_PORTNOTOPEN          "La porta non Ë aperta"
+#define LOCALIZED_ERROR_PORTALREADYOPEN      "La porta ?gi?aperta"
+#define LOCALIZED_ERROR_PORTNOTOPEN          "La porta non ?aperta"
 
-#define LOCALIZED_ERROR_WINDOWALREADYEXISTS   "%s esiste gi‡"
+#define LOCALIZED_ERROR_WINDOWALREADYEXISTS   "%s esiste gi?
 #define LOCALIZED_ERROR_WINDOWDOESNOTEXIST    "%s non esiste"
 
-#define LOCALIZED_ERROR_DLLNOTLOADED          "La DLL non Ë stata caricata"
-#define LOCALIZED_ERROR_DLLLOADFAILED         "Il caricamento della DLL Ë fallito"
-#define LOCALIZED_ERROR_DLLINVALIDDATATYPE    "Il tipo dell'argomento non Ë valido"
-#define LOCALIZED_ERROR_DLLINVALIDOUTPUTTYPE  "Il tipo del risultato non Ë valido"
+#define LOCALIZED_ERROR_DLLNOTLOADED          "La DLL non ?stata caricata"
+#define LOCALIZED_ERROR_DLLLOADFAILED         "Il caricamento della DLL ?fallito"
+#define LOCALIZED_ERROR_DLLINVALIDDATATYPE    "Il tipo dell'argomento non ?valido"
+#define LOCALIZED_ERROR_DLLINVALIDOUTPUTTYPE  "Il tipo del risultato non ?valido"
 #define LOCALIZED_ERROR_DLLFUNCTIONNOTFOUND   "Funzione non trovata"
 #define LOCALIZED_ERROR_DLLTYPEDATANOTPAIRED  "Non tutte le coppie Tipo/Dato sono correttamente accoppiate"
 
@@ -1054,15 +1054,15 @@
 #define LOCALIZED_ERROR_NETWORKSEND           "Errore di invio alla rete"
 #define LOCALIZED_ERROR_NETWORKSHUTDOWN       "Errore inatteso, E' possibile che la connessione di rete sia caduta"
 #define LOCALIZED_ERROR_NETWORKNOTSTARTED     "Non avviata"
-#define LOCALIZED_ERROR_NETWORKALREADYSTARTED "Gi‡ avviata"
-#define LOCALIZED_ERROR_NETWORKALREADYON      "Gi‡ attiva"
-#define LOCALIZED_ERROR_NETWORKALREADYOFF     "Gi‡ disattivata"
+#define LOCALIZED_ERROR_NETWORKALREADYSTARTED "Gi?avviata"
+#define LOCALIZED_ERROR_NETWORKALREADYON      "Gi?attiva"
+#define LOCALIZED_ERROR_NETWORKALREADYOFF     "Gi?disattivata"
 
 // The rest of the network errors shouldn't really be seen -- may be okay not to localize
 #define LOCALIZED_ERROR_NETWORKNAMETOOLONG         "Nome troppo lungo"
 #define LOCALIZED_ERROR_NETWORKNOTINITIALIZED      "Non inzializzata"
-#define LOCALIZED_ERROR_NETWORKSYSTEMNOTREADY      "Il sistema non Ë pronto"
-#define LOCALIZED_ERROR_NETWORKVERSIONNOTSUPPORTED "La versione non Ë supportata"
+#define LOCALIZED_ERROR_NETWORKSYSTEMNOTREADY      "Il sistema non ?pronto"
+#define LOCALIZED_ERROR_NETWORKVERSIONNOTSUPPORTED "La versione non ?supportata"
 #define LOCALIZED_ERROR_NETWORKSENDAFTERSHUTDOWN   "Impossibile inviare i dati dopo la disconnessione"
 #define LOCALIZED_ERROR_NETWORKINTERRUPTED         "Chiamata di sistema interrotta"
 #define LOCALIZED_ERROR_NETWORKHOSTNOTFOUNDAUTH    "Risposta Authoritative: Host non trovato"
@@ -1071,43 +1071,43 @@
 #define LOCALIZED_ERROR_NETWORKNODATA              "Data Record non disponibile"
 #define LOCALIZED_ERROR_NETWORKBADFILENUMBER       "File Number errato"
 #define LOCALIZED_ERROR_NETWORKWOULDBLOCK          "Questa operazione causerebbe un blocco"
-#define LOCALIZED_ERROR_NETWORKNOWINPROGRESS       "L'Operazione Ë ora in corso"
-#define LOCALIZED_ERROR_NETWORKALREADYINPROGRESS   "L'Operazione Ë gi‡ in corso"
+#define LOCALIZED_ERROR_NETWORKNOWINPROGRESS       "L'Operazione ?ora in corso"
+#define LOCALIZED_ERROR_NETWORKALREADYINPROGRESS   "L'Operazione ?gi?in corso"
 #define LOCALIZED_ERROR_NETWORKBADADDRESS          "Indirizzo errato"
 #define LOCALIZED_ERROR_NETWORKNEEDDESTADDRESS     "Indirizzo di destinazione obbligatorio"
 #define LOCALIZED_ERROR_NETWORKMESSAGETOOLONG      "Messaggio troppo lungo"
 #define LOCALIZED_ERROR_NETWORKPFNOTSUPPORTED      "Famiglia di protocolli non supportata"
-#define LOCALIZED_ERROR_NETWORKDIRNOTEMPTY         "La cartella non Ë vuota"
-#define LOCALIZED_ERROR_NETWORKAPPLIMITREACHED     "Il limite dell'applicazione Ë stato raggiunto"
-#define LOCALIZED_ERROR_NETWORKDISKQUOTA           "La quota di disco Ë stata superata"
+#define LOCALIZED_ERROR_NETWORKDIRNOTEMPTY         "La cartella non ?vuota"
+#define LOCALIZED_ERROR_NETWORKAPPLIMITREACHED     "Il limite dell'applicazione ?stato raggiunto"
+#define LOCALIZED_ERROR_NETWORKDISKQUOTA           "La quota di disco ?stata superata"
 #define LOCALIZED_ERROR_NETWORKINVALIDARGUMENTS    LOCALIZED_ERROR_BADINPUT
 #define LOCALIZED_ERROR_NETWORKTOOMANYFILES        "Troppi file aperti"
 #define LOCALIZED_ERROR_NETWORKACCESSDENIED        "Accesso negato"
-#define LOCALIZED_ERROR_NETWORKNOTASOCKET          "Richiesta un'operazione di socket su qualcosa che non Ë un socket"
+#define LOCALIZED_ERROR_NETWORKNOTASOCKET          "Richiesta un'operazione di socket su qualcosa che non ?un socket"
 #define LOCALIZED_ERROR_NETWORKADDRNOTAVAILABLE    "Impossibile assegnare l'indirizzo richiesto"
-#define LOCALIZED_ERROR_NETWORKADDRINUSE           "Indirizzo gi‡ in uso"
+#define LOCALIZED_ERROR_NETWORKADDRINUSE           "Indirizzo gi?in uso"
 #define LOCALIZED_ERROR_NETWORKAFNOTSUPPORTED      "Famiglia di indirizzi non supportata dalla famiglia di protocolli"
 #define LOCALIZED_ERROR_NETWORKTIMEDOUT            "Connessione scaduta"
 #define LOCALIZED_ERROR_NETWORKTYPENOTSUPPORTED    "Tipo di socket non supportato"
 #define LOCALIZED_ERROR_NETWORKPROTONOTSUPPORTED   "Protocollo non supportato"
 #define LOCALIZED_ERROR_NETWORKNOBUFFER            "Spazio insufficiente nel buffer"
-#define LOCALIZED_ERROR_NETWORKALREADYCONNECTED    "Il socket Ë gi‡ connesso"
-#define LOCALIZED_ERROR_NETWORKNOTCONNECTED        "Il socket non Ë connesso"
+#define LOCALIZED_ERROR_NETWORKALREADYCONNECTED    "Il socket ?gi?connesso"
+#define LOCALIZED_ERROR_NETWORKNOTCONNECTED        "Il socket non ?connesso"
 #define LOCALIZED_ERROR_NETWORKBADPROTOOPT         "Opzioni errata per questo protocollo"
-#define LOCALIZED_ERROR_NETWORKCONNECTIONRESET     "La connessione Ë stata resettata dall'altro computer"
+#define LOCALIZED_ERROR_NETWORKCONNECTIONRESET     "La connessione ?stata resettata dall'altro computer"
 #define LOCALIZED_ERROR_NETWORKCONNECTIONABORT     "Il programma ha causato la perdita della connessione"
-#define LOCALIZED_ERROR_NETWORKISDOWN              "La connessione di rete non Ë attiva"
-#define LOCALIZED_ERROR_NETWORKRESET               "La connessione di rete Ë stata resettata"
-#define LOCALIZED_ERROR_NETWORKCONNECTIONREFUSED   "La richiesta di connessione Ë stat rifiutata"
-#define LOCALIZED_ERROR_NETWORKHOSTISDOWN          "L'host non Ë attivo"
-#define LOCALIZED_ERROR_NETWORKHOSTISUNREACHABLE   "L'host non Ë raggiungibile"
-#define LOCALIZED_ERROR_NETWORKBADPROTOTYPE        "Il tipo di protocollo non Ë corretto per questo socket"
-#define LOCALIZED_ERROR_NETWORKBADOPNOTSUPPORTED   "Questa operazione non Ë supportata da questo socket"
-#define LOCALIZED_ERROR_NETWORKUNREACHABLE         "L'host remoto non Ë raggiungibile"
+#define LOCALIZED_ERROR_NETWORKISDOWN              "La connessione di rete non ?attiva"
+#define LOCALIZED_ERROR_NETWORKRESET               "La connessione di rete ?stata resettata"
+#define LOCALIZED_ERROR_NETWORKCONNECTIONREFUSED   "La richiesta di connessione ?stat rifiutata"
+#define LOCALIZED_ERROR_NETWORKHOSTISDOWN          "L'host non ?attivo"
+#define LOCALIZED_ERROR_NETWORKHOSTISUNREACHABLE   "L'host non ?raggiungibile"
+#define LOCALIZED_ERROR_NETWORKBADPROTOTYPE        "Il tipo di protocollo non ?corretto per questo socket"
+#define LOCALIZED_ERROR_NETWORKBADOPNOTSUPPORTED   "Questa operazione non ?supportata da questo socket"
+#define LOCALIZED_ERROR_NETWORKUNREACHABLE         "L'host remoto non ?raggiungibile"
 #define LOCALIZED_ERROR_NETWORKTOOMANYREFS         "Troppi riferimenti"
 
 #define LOCALIZED_ERROR_POLYSTART               "Errore INIZIOPOLI"
-#define LOCALIZED_ERROR_POLYSTARTALREADYSTARTED "Hai gi‡ un poligono avviato"
+#define LOCALIZED_ERROR_POLYSTARTALREADYSTARTED "Hai gi?un poligono avviato"
 
 #define LOCALIZED_ERROR_POLYEND                 "Errore FINEPOLI"
 #define LOCALIZED_ERROR_POLYENDNOTSTARTED       "Non hai iniziato un poligono"
@@ -1117,35 +1117,35 @@
 
 #define LOCALIZED_ERROR_MIDI                  "Errore MIDI"
 #define LOCALIZED_ERROR_MIDIINVALIDDEVICE     "Dispositivo MIDI non valido"
-#define LOCALIZED_ERROR_MIDIALREADYOPEN       "Gi‡ aperto"
-#define LOCALIZED_ERROR_MIDINOTOPEN           "Gi‡ chiuso"
+#define LOCALIZED_ERROR_MIDIALREADYOPEN       "Gi?aperto"
+#define LOCALIZED_ERROR_MIDINOTOPEN           "Gi?chiuso"
 
-#define LOCALIZED_ERROR_CLIPBOARDISEMPTY      "La Clipboard Ë vuota"
+#define LOCALIZED_ERROR_CLIPBOARDISEMPTY      "La Clipboard ?vuota"
 
 #define LOCALIZED_ERROR_MCI                   "Errore MCI"
 
 #define LOCALIZED_ERROR_TIMERNOTFOUND         "Timer non trovato"
 
-#define LOCALIZED_ERROR_HHCTRLNOTLOADED       "Help online non disponibile in quanto non Ë stato possibile caricare il file hhctrl.ocx"
+#define LOCALIZED_ERROR_HHCTRLNOTLOADED       "Help online non disponibile in quanto non ?stato possibile caricare il file hhctrl.ocx"
 
 #define LOCALIZED_ERROR_BADCOMMANDLINE        "Linea di comando non valida"
 
-#define LOCALIZED_ERROR_TMPNOTDEFINED         "La variabile di ambiente TMP non Ë definita oppure Ë non valida.\n" LOCALIZED_GENERAL_PRODUCTNAME " tenter‡ di usare C:\\ per memorizzare i file temporanei"
+#define LOCALIZED_ERROR_TMPNOTDEFINED         "La variabile di ambiente TMP non ?definita oppure ?non valida.\n" LOCALIZED_GENERAL_PRODUCTNAME " tenter?di usare C:\\ per memorizzare i file temporanei"
 
-#define LOCALIZED_ERROR_GIFSAVEFAILED         "Si Ë verificato un problema nella generazione del file GIF, controlla la memoria e lo spazio disponibile sul disco"
-#define LOCALIZED_ERROR_GIFREADFAILED         "Si Ë verificato un problema nella lettura del file GIF, controlla la memoria e lo spazio disponibile sul disco"
+#define LOCALIZED_ERROR_GIFSAVEFAILED         "Si ?verificato un problema nella generazione del file GIF, controlla la memoria e lo spazio disponibile sul disco"
+#define LOCALIZED_ERROR_GIFREADFAILED         "Si ?verificato un problema nella lettura del file GIF, controlla la memoria e lo spazio disponibile sul disco"
 
 #define LOCALIZED_ERROR_BITMAPINDEXOUTOFRANGE  "Indice BitMap fuori dall'intervallo"
 #define LOCALIZED_ERROR_BITMAPCUTFAILED        "Taglia fallito, E' possibile che non ci sia abbastanza memoria disponibile"
 
-#define LOCALIZED_ERROR_BITMAPNOTHINGTOPASTE    "Non c'Ë niente da incollare"
-#define LOCALIZED_ERROR_BITMAPINDEXISNOTBITMAP  "L'indice fornito non Ë un indice di BitMap valido"
+#define LOCALIZED_ERROR_BITMAPNOTHINGTOPASTE    "Non c'?niente da incollare"
+#define LOCALIZED_ERROR_BITMAPINDEXISNOTBITMAP  "L'indice fornito non ?un indice di BitMap valido"
 
-#define LOCALIZED_ERROR_TURTLEHASNOPICTURE      "La tartaruga %d non ha una immagine associate e verr‡ quindi fermata"
+#define LOCALIZED_ERROR_TURTLEHASNOPICTURE      "La tartaruga %d non ha una immagine associate e verr?quindi fermata"
 
-#define LOCALIZED_ERROR_FONTNOTFOUND            "Spiacente ma non Ë stato trovato alcun carattere il cui nome sia %s.  Scegli uno dei seguenti caratteri:\n"
+#define LOCALIZED_ERROR_FONTNOTFOUND            "Spiacente ma non ?stato trovato alcun carattere il cui nome sia %s.  Scegli uno dei seguenti caratteri:\n"
 
-#define LOCALIZED_ERROR_PRINTERCANTSCALE        "Il driver della stampante non supporta questa funzionalit‡"
+#define LOCALIZED_ERROR_PRINTERCANTSCALE        "Il driver della stampante non supporta questa funzionalit?
 #define LOCALIZED_ERROR_CANTDRAWIMAGE           "Impossibile disegnare l'immagine"
 #define LOCALIZED_ERROR_CANTEXTRACTIMAGE        "Impossibile estrarre l'immagine"
 #define LOCALIZED_ERROR_SUBCODE                 "Codice di errore di Windows"
@@ -1162,7 +1162,7 @@
 //
 // Messages shown by the FILE API.
 //
-#define LOCALIZED_FILE_CHDIRSUCCEEDED      "La nuova cartella Ë \"%s\""
+#define LOCALIZED_FILE_CHDIRSUCCEEDED      "La nuova cartella ?\"%s\""
 #define LOCALIZED_FILE_CHDIRFAILED         "Impossibile chdir nella cartella \"%s\""
 #define LOCALIZED_FILE_POPPEDTO            "Salito alla cartella \"%s\""
 #define LOCALIZED_FILE_MKDIRSUCCEEDED      "Spostato nella nuova cartella \"%s\""
@@ -1305,7 +1305,7 @@
 #define LOCALIZED_COLOR_LIMEGREEN             "LimeVerde"
 #define LOCALIZED_COLOR_LINEN                 "Lino"
 #define LOCALIZED_COLOR_MAGENTA               "Magenta"
-#define LOCALIZED_COLOR_MAROON                "BordÚ"
+#define LOCALIZED_COLOR_MAROON                "Bord?
 #define LOCALIZED_COLOR_MEDIUMAQUAMARINE      "AcquamarinaMedio"
 #define LOCALIZED_COLOR_MEDIUMBLUE            "BluMedio"
 #define LOCALIZED_COLOR_MEDIUMORCHID          "OrchideaMedio"
@@ -1356,7 +1356,7 @@
 #define LOCALIZED_COLOR_SPRINGGREEN           "VerdePrimavera"
 #define LOCALIZED_COLOR_STEELBLUE             "BluAcciaio"
 #define LOCALIZED_COLOR_TAN                   "Catrame"
-#define LOCALIZED_COLOR_TEAL                  "BluTË"
+#define LOCALIZED_COLOR_TEAL                  "BluT?
 #define LOCALIZED_COLOR_THISTLE               "Cardo"
 #define LOCALIZED_COLOR_TOMATO                "RossoPomodoro"
 #define LOCALIZED_COLOR_TURQUOISE             "Turchese"

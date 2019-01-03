@@ -315,6 +315,9 @@
     <ClInclude Include="version.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CNodePrinter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -548,6 +551,9 @@
     <ClCompile Include="dllwind.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CNodePrinter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="FMSLogo.rc">
@@ -571,8 +577,8 @@
     </MASM>
   </ItemGroup>
   <ItemGroup>
-    <None Include="startup.logoscript">
+    <CopyFileToFolders Include="startup.logoscript">
       <Filter>资源文件</Filter>
-    </None>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>

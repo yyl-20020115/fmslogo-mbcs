@@ -852,7 +852,7 @@ NODE *evaluator(NODE *list, enum labels where)
     // These are saved/restored without changing the reference count.
     NODE * var_stack_position;  // temp ptr into var_stack
     NODE * formals;             // list of formal parameters
-    FIXNUM repcount;            // count for repeat
+    FIXNUM repcount = 0;            // count for repeat
 
     bool tracing;               // are we tracing the current procedure?
 

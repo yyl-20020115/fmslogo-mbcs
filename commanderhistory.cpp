@@ -297,8 +297,10 @@ void CCommanderHistory::OnUpdateRemoveSelectedLines(wxUpdateUIEvent& Event)
 
         // Check if the selection's end is at the end of the line
         bool selectionEndIsAtEndOfLine;
-        if (GetRange(end - 1, end)[0] == '\n' || // just after a newline
-            GetRange(end, end + 1)[0] == '\n')   // at a newline
+		wxString ap = GetRange(end - 1, end);
+		wxString ep = GetRange(end, end + 1);
+        if (ap.length()>0 &&ap[0]== '\n' || // just after a newline
+             ep.length()>0 &&ep[0]== '\n')   // at a newline
         {
             selectionEndIsAtEndOfLine = true;
         }

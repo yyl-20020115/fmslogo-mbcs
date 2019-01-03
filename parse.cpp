@@ -48,6 +48,7 @@
     #include "localizedstrings.h"
     #include "debugheap.h"
 #endif
+#include "CNodePrinter.h"
 
 FILE *loadstream = stdin;
 FILE *dribblestream = NULL;
@@ -615,7 +616,16 @@ NODE *reader(FILE *FileStream, const char * Prompt)
     }
 
     lineBuffer.TakeOwnershipOfBuffer();
+#ifdef _DEBUG
+	char* px = lineBuffer.GetString();
+	if (px != 0) {
+		px += 2;
+		//printf("%s", px);
+		OutputDebugStringA(px);
+		OutputDebugStringA("\n");
 
+	}
+#endif
     NODE * line = make_strnode_no_copy(
         lineBuffer.GetString() + sizeof(unsigned short),
         lineBuffer.GetString(),
@@ -920,6 +930,9 @@ parser_iterate(
 
 NODE *parser(NODE *nd, bool ignore_comments)
 {
+	CNodePrinter cnp;
+
+	wxString text = cnp.Print(nd);
     NODE * string_node = cnv_node_to_strnode(nd);
     ref(string_node);
 
@@ -927,6 +940,14 @@ NODE *parser(NODE *nd, bool ignore_comments)
     const char * lnsav = getstrptr(string_node);
     NODE * rtn = parser_iterate(&lnsav, lnsav + slen, ignore_comments, -1);
 
+	if (text.StartsWith("<to map"))
+	{
+		text.clear();
+		CNodePrinter cnp;
+		wxString ret = cnp.Print(rtn);
+
+		ret.clear();
+	}
     gcref(nd);
     deref(string_node);
     return rtn;
